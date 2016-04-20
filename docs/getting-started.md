@@ -43,10 +43,8 @@ Before you start, take a moment to see how the project structure looks like:
 └── package.json                # The list of 3rd party libraries and utilities
 ```
 
-**Note**: The current version of RSK does not contain a Flux implementation.
-It can be easily integrated with any Flux library of your choice. The most
-commonly used Flux libraries are [Flux](http://facebook.github.io/flux/),
-[Redux](http://redux.js.org/), and [Relay](http://facebook.github.io/relay/).
+**Note**: The current version of RSK uses [Redux](http://redux.js.org/) for a
+flux implementation.
 
 ### Quick Start
 
